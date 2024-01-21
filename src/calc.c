@@ -1,6 +1,6 @@
 
 
-
+#include<math.h>
 
 // it adds to decimals values 
 double add(double a , double b){
@@ -28,5 +28,11 @@ double div(double a , double b){
  if(b == 0) return null; 
 return a / b ; 
 
+}
+
+
+double getSquareRoot(double value){
+
+  return sqrt(value) ; 
 }
 
