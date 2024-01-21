@@ -36,3 +36,10 @@ double getSquareRoot(double value){
   return sqrt(value) ; 
 }
 
+
+int getMod(int value){
+
+  return mod(value) ; 
+}
+
+
